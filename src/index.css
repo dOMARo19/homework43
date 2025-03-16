@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+  background-color: rgb(184, 246, 246);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding: 20px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: azure;
+  font-size: 30px;
+}
+
+.activeLink {
+  color: rgb(90, 230, 248);
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+  
