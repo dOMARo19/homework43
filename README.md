@@ -1,12 +1,25 @@
-# React + Vite
+# React + Vite — Моє React Router Додаток
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Цей проект створений за допомогою [Vite](https://vitejs.dev/) з підтримкою React та React Router.
 
-Currently, two official plugins are available:
+## Опис
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проект демонструє базову конфігурацію React та React Router для створення односторінкового додатку з наступними сторінками:
 
-## Expanding the ESLint configuration
+- **Home** — Домашня сторінка.
+- **About** — Сторінка "Про нас".
+- **Contacts** — Сторінка з контактною інформацією.
+- **NotFound** — Сторінка, яка відображається при невідповідності маршруту.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Меню навігації знаходиться в компоненті [`Menu`](src/components/Menu.tsx).
+
+## Запуск проекту
+
+Виконайте наступні команди:
+
+```sh
+npm install
+npm run dev
+
+Після цього відкрийте браузер за адресою: http://localhost:3000
+```
